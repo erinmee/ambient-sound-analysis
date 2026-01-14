@@ -3,8 +3,8 @@ import datetime as dt
 import pytz
 
 # importing orcasound_noise libraries
-from orcasound_noise.pipeline.pipeline import NoiseAnalysisPipeline
-from orcasound_noise.utils import Hydrophone
+from ..pipeline.pipeline import NoiseAnalysisPipeline
+from ..utils import Hydrophone
 
 
 # Set Location and Resolution

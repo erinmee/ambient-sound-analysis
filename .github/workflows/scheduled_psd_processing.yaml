@@ -41,7 +41,7 @@ jobs:
 
       - name: Process S3 data
         run: |
-          python src/orcasound_noise/git_action_batch/git_action_batch.py
+          python -m src.orcasound_noise.git_action_batch.git_action_batch
 
       - name: Commit processed data to repository
         run: |
