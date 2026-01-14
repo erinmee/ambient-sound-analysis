@@ -13,7 +13,7 @@ if __name__ == '__main__':
     pipeline = NoiseAnalysisPipeline(Hydrophone.BUSH_POINT,
                                      delta_f=10, bands=None,
                                      delta_t=60, mode='safe',
-                                     pqt_folder='../../../data/parquet_files/')
+                                     pqt_folder='./data/parquet_files/')
 
 
 
