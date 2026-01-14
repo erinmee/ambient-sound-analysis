@@ -16,10 +16,11 @@ from multiprocessing import Pool
 from orca_hls_utils.DateRangeHLSStream import DateRangeHLSStream
 from .acoustic_util import wav_to_array
 from ..utils.file_connector import S3FileConnector
+from ..utils import Hydrophone
 
-from orcasound_noise.pipeline.acoustic_util import wav_to_array
-from orcasound_noise.utils import Hydrophone
-from orcasound_noise.utils.file_connector import S3FileConnector
+#from orcasound_noise.pipeline.acoustic_util import wav_to_array
+#from orcasound_noise.utils import Hydrophone
+#from orcasound_noise.utils.file_connector import S3FileConnector
 
 
 class NoiseAnalysisPipeline:
